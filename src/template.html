@@ -3,8 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
+
+    <nav aria-label="Main navigation"></nav>
+
+    <main>
+
+        <!-- Hero / About -->
+        <section class="hero">
+            <div class="hero-wrapper">
+
+                <!-- Removed the empty src="" that caused Webpack to fail -->
+                <img 
+                    src="https://via.placeholder.com/300x300" 
+                    alt="Portrait placeholder" 
+                    class="hero-image"
+                >
+
+                <div class="hero-content">
+                    <h1>test</h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusantium exercitationem fuga, fugit tempora iusto modi enim quam impedit.
+                    </p>
+
+                    <div class="hero-links">
+                        <label>
+                            <img 
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" 
+                                alt="GitHub icon"
+                            />
+                            <a href="#" aria-label="GitHub profile">GitHub</a>
+                        </label>
+
+                        <label>
+                            <img 
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" 
+                                alt="LinkedIn icon"
+                            />
+                            <a href="#" aria-label="LinkedIn profile">LinkedIn</a> 
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">My Work</h2>
+
+            <div class="project-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project screenshot">
+                    <h3>Weather Dashboard</h3>
+                    <p>
+                        A real‑time weather dashboard using OpenWeather API, modular JS, and responsive UI components.
+                    </p>
+                    <a href="#" class="project-btn">View Project</a>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project screenshot">
+                    <h3>Recipe Finder App</h3>
+                    <p>
+                        A search‑driven recipe explorer with ingredient filtering, dynamic rendering, and clean card layouts.
+                    </p>
+                    <a href="#" class="project-btn">View Project</a>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project screenshot">
+                    <h3>Markdown Notes Editor</h3>
+                    <p>
+                        A lightweight markdown editor with live preview, autosave, and a minimalist writing interface.
+                    </p>
+                    <a href="#" class="project-btn">View Project</a>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project screenshot">
+                    <h3>Finance Tracker</h3>
+                    <p>
+                        A personal budgeting tool featuring category breakdowns, charts, and persistent local storage.
+                    </p>
+                    <a href="#" class="project-btn">View Project</a>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project screenshot">
+                    <h3>Movie Explorer</h3>
+                    <p>
+                        A film discovery interface powered by TMDB API with search, filters, and responsive grid layouts.
+                    </p>
+                    <a href="#" class="project-btn">View Project</a>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project screenshot">
+                    <h3>Portfolio CMS</h3>
+                    <p>
+                        A custom mini‑CMS for managing portfolio content with CRUD operations and clean UI components.
+                    </p>
+                    <a href="#" class="project-btn">View Project</a>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+
+    <div class="footer-content">
+
+        <div class="footer-section">
+            <h4>About This Site</h4>
+            <p>
+                A personal portfolio showcasing projects, experiments, and ongoing learning in web development and design.
+            </p>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <ul>
+                <li>Email: <a href="mailto:example@email.com">example@email.com</a></li>
+                <li>Location: place, location</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Social</h4>
+            <ul class="footer-social">
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Your Name. All rights reserved.</p>
+    </div>
+
+</footer>
+
+
 </body>
 </html>
